@@ -1,0 +1,53 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #00ffd0;
+}
+h2 {
+  color: red;
+  mediumspringgreenborder-bottom: 1px solid red;
+}
+h1 {
+  color: blue;
+  background-color: yellow;
+}
+img {
+/*   width: 30%;
+  border: 1px dotted pink; */
+}
+a {
+  color: orange;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+h3 {
+  color: yellow;
+/*   text-align: right; */
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* class="header" */
+.header {
+/*   border: 2px dotted red; */
+  display:flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.header .logo {
+  display: block;
+  margin: 0 auto;
+}
+.header ul li {
+  display:inline;
+}
+/* class="youtube" */
+.youtube {
+  display: flex;
+}
+.youtube div {
+  flex-basis: 50%;
+}
